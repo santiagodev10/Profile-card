@@ -4,10 +4,10 @@ const projects = document.querySelector('.projects');
 const loadLinks = () => {
   const linkList = [
     { 
-      name: 'Awesome Movies', 
-      url: 'https://santiagodev10.github.io/Awesome-Movies/',
+      name: 'Digital Bank Landing Page', 
+      url: 'https://santiagodev10.github.io/Digital-Bank-Landing-Page/',
       color: 'project1',
-      emoji: '🎬' 
+      emoji: '🏦' 
     },
     { 
       name: 'Product List',
