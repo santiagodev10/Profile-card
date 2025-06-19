@@ -48,5 +48,4 @@ const loadLinks = () => {
   });
 };
 
-// Llama la función para cargar los enlaces
 loadLinks();

@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil - Santiago Perozo</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="../src/index.js" defer></script>
-    <title>Santiago Perozo</title>
-</head>
-<body>
-    <div class="card">
-        <header>
-            <div class="profile">
-                <h1 class="profile--name">Santiago Perozo</h1>
-                <p class="profile--nickname">@santiagoDev</p>
-                <p class="profile--role">I'm a frontend software developer</p>
-            </div>
-            <figure class="profile-image">
-                <img src="./images/personal-photo.jpg" alt="personal-photo">
-            </figure>
-        </header>
-        <span class="separator"></span>
-        <main id="links">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita laudantium aperiam animi rerum consequuntur accusantium molestias officiis, eaque velit eius natus quod facilis deserunt eum omnis possimus magni ullam sed.</p>
-            <ul class="social-links">
-                <li><a href="https://github.com/santiagodev10" target="_blank"><img src="./images/github-copilot-icon.svg" alt="" class="social-img"></a></li>
-                <li><a href="https://x.com/santiagoDev10" target="_blank"><img src="./images/logo-twitter.svg" alt="" class="social-img"></a></li>
-                <li><a href="https://medium.com/@sanxp18" target="_blank"><img src="./images/logo-medium.svg" alt="" class="social-img"></a></li>
-            </ul>
-            <div class="projects"></div>
-        </main>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="profile-photo">
+        <img src="./images/personal-photo.jpg" alt="Foto de Santiago Perozo" />
+      </div>
+      <h1>Santiago Perozo</h1>
+      <p class="username">@santiagoDev</p>
+      <p class="bio">
+        Frontend Software Developer passionate by technology and design.
+      </p>
+      <div class="skills">
+        <span class="skill skill-blue">JS</span>
+        <span class="skill skill-purple">React</span>
+        <span class="skill skill-red">HTML</span>
+        <span class="skill skill-orange">CSS</span>
+      </div>
+      <div class="social">
+        <h2>Social network</h2>
+        <div class="social-networks">
+          <a href="https://github.com/santiagodev10" target="_blank"><img src="./images/github-copilot-icon.svg" alt=""></a>
+          <a href="https://x.com/santiagoDev10" target="_blank"><img src="./images/logo-twitter.svg" alt=""></a>
+          <a href="https://medium.com/@sanxp18" target="_blank"><img src="./images/logo-medium.svg" alt=""></a>
+        </div>
+      </div>
+      <div class="about">
+        <h2>About me</h2>
+        <p>
+          Developer with experience in modern web projects. Check out some of my work!
+        </p>
+      </div>
+      <div class="projects"></div>
     </div>
-</body>
+  </body>
 </html>
