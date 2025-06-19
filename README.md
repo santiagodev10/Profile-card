@@ -6,6 +6,10 @@ This project is a personal profile card built with HTML, CSS, and JavaScript, us
 
 ![Profile card image 2](./public/images/Screenshot-profile-card-2.jpg)
 
+## Links
+
+- Live Site URL: [Click here!](https://santiagodev10.github.io/Profile-card/)
+
 ## Features
 
 - Profile card with photo, name, username, and bio.
