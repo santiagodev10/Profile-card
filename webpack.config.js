@@ -26,6 +26,12 @@ module.exports = {
         inject: true, // Indica que los scripts generados por webpack deben ser inyectados en el HTML.
         template: './public/index.html', // Indica el archivo HTML que se usará como plantilla.
         filename: 'index.html'
+        }),
+        new CopyWebpackPlugin({ // Copia archivos estáticos al directorio de salida.
+            patterns: [ // Indica los archivos que se deben copiar.
+                { from: './public/styles.css', to: 'styles.css' }, // Copia el CSS
+                { from: './public/images', to: 'images' }           // Copia la carpeta images
+            ]
         })
     ]
 };
